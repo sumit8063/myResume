@@ -1,0 +1,144 @@
+body {
+  background-color: #334756;
+  text-align: center;
+}
+
+.body {
+  background-color: #EEEEEE;
+  height: 1800px;
+  width: 65%;
+  margin: 50px auto;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 0.5;
+}
+
+.header {
+  height: 155px;
+  width: 65%;
+  background-color: #3797A4;
+  float: right;
+  margin-top: 50px;
+  text-align: left;
+  padding-left: 20px;
+  color: white;
+}
+
+.name {
+  line-height: 0.6;
+}
+
+img {
+  height: 160px;
+  width: 160px;
+  margin-top: 45px;
+}
+
+.container_1 {
+  margin-left: 75px;
+  text-align: left;
+  color: #1F4068;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}
+
+i+h4 {
+  display: inline-block;
+}
+
+.content {
+  margin-top: 25px;
+  margin-left: 70px;
+  text-align: left;
+  color: #1F4068;
+  line-height: 0.5;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #3797A4;
+  font-size: 1.5rem;
+}
+
+h3, h4 {
+
+  font-weight: 500;
+}
+
+
+
+.margin {
+  margin-top: 1px;
+}
+
+.education, .skills, .certificates, .projects, .misc {
+  margin-top: 30px;
+}
+
+.education {
+  line-height: 0.2;
+}
+
+.button {
+  background-color: #B2B1B9;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 1rem;
+  padding: 5px 15px;
+  margin-right: 5px;
+}
+.btn-interest{
+  display: block;
+  margin: 10px;
+  border-radius: 6px;
+  background-color: #B2B1B9;
+  border: none;
+  color: white;
+
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #39A2DB;
+}
+
+#certificates {
+  line-height: 1;
+}
+
+.projectList {
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+.misc {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.langList, .hobbiesList{
+  padding-left: 20px;
+}
+a{
+  text-decoration: none;
+  color: #3797A4;
+}
+a:hover{
+  text-decoration: underline;
+}
+/* .montserrat{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
+} */
+.edu_h3, .projects_h3 {
+  font-weight: 600;
+}
+hr{
+  width: 85%;
+}
